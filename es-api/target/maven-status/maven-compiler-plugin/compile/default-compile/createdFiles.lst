@@ -1,0 +1,5 @@
+com/yimayhd/api/service/CarService.class
+com/yimayhd/api/vo/CarVo.class
+com/yimayhd/api/vo/PageVo.class
+com/yimayhd/api/vo/LocationPoint.class
+com/yimayhd/api/constants/EsBasicEnum.class

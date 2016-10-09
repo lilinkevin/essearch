@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <title>search-provider</title>
+
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+    <script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
+    <script src="http://cdn.bootcss.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron">
+    <div class="container">
+        <table class="table table-striped table-bordered">
+            <tr>
+                <td>服务名：</td>
+                <td>search-provider</td>
+            </tr>
+            <tr>
+                <td>构建时间：</td>
+                <td>${BUILD_ID}</td>
+            </tr>
+            <tr>
+                <td>构建号：</td>
+                <td>${BUILD_NUMBER}</td>
+            </tr>
+            <tr>
+                <td>构建环境：</td>
+                <td>${env}</td>
+            </tr>
+            <tr>
+                <td>构建地址：</td>
+                <td><a href="${BUILD_URL}">${BUILD_URL}</a></td>
+            </tr>
+            <tr>
+                <td>Git版本号：</td>
+                <td>${GIT_COMMIT}</td>
+            </tr>
+            <tr>
+                <td>java版本：</td>
+                <td>${java.version}</td>
+            </tr>
+            <tr>
+                <td>java编译版本：</td>
+                <td>${jdk.version}</td>
+            </tr>
+            <tr>
+                <td>java提供商：</td>
+                <td>${java.vendor}</td>
+            </tr>
+        </table>
+    </div>
+</div>
+</body>
+</html>

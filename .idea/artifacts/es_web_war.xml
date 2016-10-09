@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="es-web:war">
+    <output-path>$PROJECT_DIR$/es-web/target</output-path>
+    <root id="archive" name="essearch.war">
+      <element id="artifact" artifact-name="es-web:war exploded" />
+    </root>
+  </artifact>
+</component>
